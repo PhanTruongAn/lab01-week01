@@ -1,7 +1,7 @@
 //Coding Challenge #5
 
-var Dolphins = [150, 107, 140];
-var Koalas = [50, 80, 90];
+var Dolphins = [97, 112, 101];
+var Koalas = [109, 95, 123];
 
 function calcAverage(array) {
     var sum = 0
@@ -11,6 +11,5 @@ function calcAverage(array) {
     avg = sum / (array.length)
     return avg;
 }
-
-console.log(avgScore(Dolphins));
-console.log(avgScore(Koalas));
+console.log(calcAverage(Dolphins));
+console.log(calcAverage(Koalas));
